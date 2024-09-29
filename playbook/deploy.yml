@@ -1,6 +1,6 @@
 - name: Deploy Calculator App
 
-  hosts: myhosts
+  hosts: localhost
 
   tasks:
     - name: Remove old containers
