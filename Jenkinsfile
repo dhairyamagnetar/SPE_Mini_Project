@@ -6,6 +6,7 @@ pipeline {
         DOCKER_TAG = 'latest'
     }
 
+// hello
     stages {
         stage('Test') {
             steps {
